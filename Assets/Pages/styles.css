@@ -11,7 +11,7 @@ h4 > span {
   font-size: larger;
 }
 
-h1, h3 {
+h1, h3, h4 {
   text-align: center;
 }
 
@@ -19,4 +19,20 @@ span {
   color: rgb(32, 230, 230);
   font-weight: 900;
   font-size: larger;
+}
+
+.questions {
+  background-color: #695555;
+  margin: auto;
+  width: 70%;
+  padding: 20px;
+}
+
+#submit {
+margin: 10px 45%;
+padding: 5px 10px;
+border-radius: 10px;
+border: 2px solid #695555;
+color: #290b0b;
+font-weight: bolder;
 }
