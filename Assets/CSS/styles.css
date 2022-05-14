@@ -2,12 +2,37 @@ section {
   background-color: #c77755;
   width: 80%;
   height: 95vh;
-  
+  margin: auto;
 }
-
-h1 {
+h1, h3 {
   text-align: center;
   padding: 10px;
   color: aqua;
   font-weight: 800;
+}
+h3 {
+  color:beige;
+}
+form {
+  background-color: rgb(105, 85, 85);
+  padding: 15px;
+  margin: 25% auto;
+  text-align: center;
+  border-radius: 20px;
+  width: 50%;
+}
+#name, #school, #email {
+  padding: 10px;
+  width: 40%;
+  margin: 7px;
+  border-radius: 10px;
+  border: none;
+  background-color: beige;
+}
+#submit {
+  background-color: rgb(178, 129, 224);
+  border: none;
+  padding: 7px 20px;
+  border-radius: 10px;
+  margin-top: 10px;
 }
