@@ -1,9 +1,22 @@
 body {
   margin: auto;
   padding: 0;
+  background-color: #c77755;
+  width: 90%;
 }
+
 h4 > span {
   font-weight: bolder;
-  color: rgb(214, 19, 19);
+  color: rgb(192, 8, 8);
+  font-size: larger;
+}
+
+h1, h3 {
+  text-align: center;
+}
+
+span {
+  color: rgb(32, 230, 230);
+  font-weight: 900;
   font-size: larger;
 }
