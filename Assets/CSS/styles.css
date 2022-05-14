@@ -1,22 +1,27 @@
 section {
   background-color: #c77755;
-  width: 80%;
-  height: 95vh;
+  width: 90%;
+  height: 97vh;
   margin: auto;
+  border: 2px solid #38180a;
 }
-h1, h3 {
+.header {
   text-align: center;
   padding: 10px;
   color: aqua;
   font-weight: 800;
+  font-size: 40px;
+  text-decoration: underline dashed 4px rgb(178, 129, 224);
 }
 h3 {
   color:beige;
+  margin-top: 10%;
+  text-align: center;
 }
 form {
   background-color: rgb(105, 85, 85);
   padding: 15px;
-  margin: 25% auto;
+  margin:  auto;
   text-align: center;
   border-radius: 20px;
   width: 50%;
