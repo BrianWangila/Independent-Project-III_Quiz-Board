@@ -15,18 +15,25 @@ h1, h3, h4 {
   text-align: center;
 }
 
+h1 {
+  color: aqua;
+  text-decoration: underline dashed #695555;
+}
+
 span {
-  color: rgb(32, 230, 230);
+  color: #20e6e6;
   font-weight: 900;
   font-size: larger;
-  margin-right: 10px;
+  margin-right: 5px;
 }
 
 .questions {
   background-color: #695555;
   margin: auto;
-  width: 70%;
+  width: 75%;
   padding: 20px;
+  border: 1px solid rgb(6, 172, 172);
+  border-radius: 20px;
 }
 
 #submit {
@@ -45,4 +52,9 @@ font-weight: bolder;
 #one, #two, #three, #four, #five {
   margin-top: 5px;
   margin-left: 25px;
+}
+
+#Q {
+  font-size: 18px;
+  font-weight: 500;
 }
