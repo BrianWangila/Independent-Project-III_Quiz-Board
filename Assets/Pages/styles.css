@@ -1,0 +1,9 @@
+body {
+  margin: auto;
+  padding: 0;
+}
+span {
+  font-weight: bolder;
+  color: rgb(214, 19, 19);
+  font-size: larger;
+}
