@@ -19,6 +19,7 @@ span {
   color: rgb(32, 230, 230);
   font-weight: 900;
   font-size: larger;
+  margin-right: 10px;
 }
 
 .questions {
@@ -35,4 +36,13 @@ border-radius: 10px;
 border: 2px solid #695555;
 color: #290b0b;
 font-weight: bolder;
+}
+
+.Q1, .Q2, .Q3, .Q4, .Q5 {
+  margin-bottom: 15px;
+}
+
+#one, #two, #three, #four, #five {
+  margin-top: 5px;
+  margin-left: 25px;
 }
