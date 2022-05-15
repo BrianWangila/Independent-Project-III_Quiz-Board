@@ -6,9 +6,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="styles.css">
   <script type="text/javascript" src="../JS/code.js"></script>
+  <script type="text/jquery" src="https://code.jquery.com/jquery-3.3.1.js"></script>
   <title>Quiz Board</title>
 </head>
-<body>
+<body>  
   <section>
     <div>
       <h1>QUIZ BOARD</h1>
@@ -58,6 +59,12 @@
     </div>
     <input type="submit" name="submit" id="submit" value="Submit Test" onclick="result()">
   </section>
+
+  <div id="test_result">
+    <h3>How did you Score?<br></h3>
+    <div id="results"></div>
+    <input type="button" id="retry" class="btn" name="retry" value="Try Again">
+  </div>
   
 </body>
 </html>

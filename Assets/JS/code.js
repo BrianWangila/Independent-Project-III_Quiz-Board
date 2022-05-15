@@ -25,21 +25,18 @@ function result (){
   if (document.getElementById("correct5").checked){
     score+=10;
   }
-  var total = (score/50)*100;
 
+
+  var total = (score/50)*100;
   if (total >= 80){
-    document.write("Your score is: " + total + "%."+ " Congratulations, your knowledge of JS is incredible!")
+    document.write("Your score is: " + total + "%."+ " Congratulations, your knowledge of JS is INCREDIBLE!")
   }
   else if (total < 80 && total >= 60){
-    document.write("Your Score is: " + total + "%." + " Not so bad, Good job!")
+    document.write("Your Score is: " + total + "%." + " Not so bad, GOOD JOB!")
   }
   else {
     document.write("Your score is: " + total + "%." + "You can do better. TRY AGAIN")
   }
 
 }
-
-
-// function next(){
-//   window.location = "Assets/Pages/Index.html"
-// }
+$
