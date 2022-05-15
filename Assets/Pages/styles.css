@@ -18,6 +18,7 @@ h1, h3, h4 {
 h1 {
   color: aqua;
   text-decoration: underline dashed #695555;
+  font-size: xx-large;
 }
 
 span {
@@ -49,7 +50,7 @@ font-weight: bolder;
   margin-bottom: 15px;
 }
 
-#one, #two, #three, #four, #five {
+#one, #two, #three, #four, #five, #correct {
   margin-top: 5px;
   margin-left: 25px;
 }
