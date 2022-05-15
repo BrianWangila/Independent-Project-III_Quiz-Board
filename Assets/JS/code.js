@@ -26,7 +26,17 @@ function result (){
     score+=10;
   }
   var total = (score/50)*100;
-  document.write("Your Score is: " + total + "%")
+
+  if (total >= 80){
+    document.write("Your score is: " + total + "%."+ " Congratulations, your knowledge of JS is incredible!")
+  }
+  else if (total < 80 && total >= 60){
+    document.write("Your Score is: " + total + "%." + " Not so bad, Good job!")
+  }
+  else {
+    document.write("Your score is: " + total + "%." + "You can do better. TRY AGAIN")
+  }
+
 }
 
 
