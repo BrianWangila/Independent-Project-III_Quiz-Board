@@ -50,7 +50,7 @@ font-weight: bolder;
   margin-bottom: 15px;
 }
 
-#one, #two, #three, #four, #five, #correct {
+.one, .two, .three, .four, .five {
   margin-top: 5px;
   margin-left: 25px;
 }
