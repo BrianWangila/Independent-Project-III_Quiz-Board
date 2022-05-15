@@ -34,11 +34,12 @@ The website has a login page where the users logins in with their persoal detail
 * Open the index file from the zipped file with any browser.
 
 ### Live_link
-https://brianwangila.github.io/Independent-Project-2/
+https://brianwangila.github.io/Independent-Project-III_Quiz-Board/
 
 ### Technology_used
 * HTML - Used to develop the structure of the website
 * CSS - Used to style the website
+* Javascript - interactivity
 
 ## Known_Bugs
 There are no known bags
