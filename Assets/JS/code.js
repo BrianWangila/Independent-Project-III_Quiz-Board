@@ -30,15 +30,12 @@ function result (){
   var total = (score/50)*100;
   if (total >= 80){
     document.getElementById("results").innerText = total + "%." + " Congratulations, your knowledge of JS is INCREDIBLE!"
-    // document.write("Your score is: " + total + "%."+ " Congratulations, your knowledge of JS is INCREDIBLE!")
   }
-  else if (total < 80 && total >= 60){
+  else if (total < 80 && total >= 50){
     document.getElementById("results").innerText = total + "%." + " Not so bad, GOOD JOB!"
-    // document.write("Your Score is: " + total + "%." + " Not so bad, GOOD JOB!")
   }
   else {
-    document.getElementById("results").innerText = total + "%." + "You can do better. TRY AGAIN"
-    // document.write("Your score is: " + total + "%." + "You can do better. TRY AGAIN")
+    document.getElementById("results").innerText = total + "%" + "You can do better. TRY AGAIN"
   }
 
 }
